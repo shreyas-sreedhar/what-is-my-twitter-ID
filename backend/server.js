@@ -45,4 +45,5 @@ app.get('/api/gettwtid', async (req, res) => {
 
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
+    console.log("How u doin anon....")
 });
