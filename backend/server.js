@@ -38,7 +38,7 @@ app.get('/api/gettwtid', async (req, res) => {
         res.send(twitterId); // Send just the ID to the frontend
     } catch (error) {
         console.error('Error: Try after sometime.. Its Twitters fault', error.response ? error.response.data : error.message);
-        res.status(500).json({ error: 'Failed to fetch data from Twitter API' });
+        res.status(500).json({ error: 'Failed to fetch data from Twitter API, Try after sometime..Twitter has rate limits in the free tier' });
      
     }
 });

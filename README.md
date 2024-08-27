@@ -29,4 +29,7 @@ The Twitter ID is useful for developers, social media managers, and anyone who n
 ## API in Question 
 1. `https://api.twitter.com/2/users/by/username/${username}` 
 
+ ## Disclaimer
+I'm not related to twitter/X or any of anything. This is just a API call to the Twitter V2 API using my own bearer token for the deployed website. 
+
  
