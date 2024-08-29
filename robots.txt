@@ -1,0 +1,18 @@
+# Allow all bots to access all content
+User-agent: *
+Disallow:
+
+# Block access to certain directories or files (example paths)
+# Disallow: /private/
+# Disallow: /temp/
+
+# Block access to specific files
+# Disallow: /secret.html
+# Disallow: /hidden
+
+# Allow specific bots only
+# User-agent: Googlebot
+# Disallow:
+
+# Sitemap URL
+# Sitemap: https://www.whatsmytwtrid.site/sitemap.xml
